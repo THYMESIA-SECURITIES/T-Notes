@@ -1,0 +1,3 @@
+usr/local/bin/t_notesd usr/bin
+usr/local/bin/t_notes-cli usr/bin
+debian/examples/t-notes.conf etc/t_notes

@@ -1,0 +1,6 @@
+usr/local/bin/t_notes-qt usr/bin
+share/pixmaps/t_notes32.xpm usr/share/pixmaps
+share/pixmaps/t_notes16.xpm usr/share/pixmaps
+share/pixmaps/t_notes128.png usr/share/pixmaps
+debian/t_notes-qt.desktop usr/share/applications
+debian/t_notes-qt.protocol usr/share/kde4/services/

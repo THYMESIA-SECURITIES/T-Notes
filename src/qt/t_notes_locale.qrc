@@ -1,0 +1,17 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="de">locale/t_notes_de.qm</file>
+        <file alias="en">locale/t_notes_en.qm</file>
+        <file alias="en_US">locale/t_notes_en_US.qm</file>
+        <file alias="es">locale/t_notes_es.qm</file>
+        <file alias="es_ES">locale/t_notes_es_ES.qm</file>
+        <file alias="fr_FR">locale/t_notes_fr_FR.qm</file>
+        <file alias="hr_HR">locale/t_notes_hr_HR.qm</file>
+        <file alias="it">locale/t_notes_it.qm</file>
+        <file alias="ko_KR">locale/t_notes_ko_KR.qm</file>
+        <file alias="nl">locale/t_notes_nl.qm</file>
+        <file alias="pl">locale/t_notes_pl.qm</file>
+        <file alias="ru">locale/t_notes_ru.qm</file>
+        <file alias="zh_CN">locale/t_notes_zh_CN.qm</file>
+    </qresource>
+</RCC>

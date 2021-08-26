@@ -1,0 +1,15 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=T-Notes Daemon SNAP
+Comment=testnet
+GenericName=T_Notes Digital Currency Daemon Client testnet network
+Exec=t_notes-core.daemon-testnet %u
+Terminal=true
+Type=Application
+Icon=${SNAP}/share/pixmaps/t_notes_testnet.png
+MimeType=x-scheme-handler/tnc;
+Categories=X-Office;X-Finance;
+Keywords=internet;t_notes;core;wallet;daemon;testnet;snap;launchpad;crypto;digital;currency;coin;token;
+Version=1.0

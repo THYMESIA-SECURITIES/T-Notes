@@ -1,0 +1,8 @@
+/usr/bin/t_notes-cli		--	gen_context(system_u:object_r:t_notes_exec_t,s0)
+/usr/sbin/t_notesd		--	gen_context(system_u:object_r:t_notes_exec_t,s0)
+/usr/lib(64)?/t_notes/t_notesd		--	gen_context(system_u:object_r:t_notes_exec_t,s0)
+
+/etc/t_notes(/.*)?		gen_context(system_u:object_r:t_notes_conf_t,s0)
+/var/lib/t_notes(/.*)?		gen_context(system_u:object_r:t_notes_var_lib_t,s0)
+
+(/var)?/run/t_notesd(/.*)?   gen_context(system_u:object_r:t_notes_var_run_t,s0)

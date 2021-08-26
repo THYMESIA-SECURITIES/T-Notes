@@ -1,0 +1,15 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=T-Notes
+Comment=T-Notes QT main network
+GenericName=T_Notes Digital Currency QT client main network
+Exec=t_notes-core.qt %u
+Terminal=false
+Type=Application
+Icon=${SNAP}/share/pixmaps/t_notes.png
+MimeType=x-scheme-handler/t_notes;
+Categories=X-Office;X-Finance;
+Keywords=internet;t_notes;tnc;core;wallet;qt;main;snap;launchpad;crypto;digital;currency;coin;token;
+Version=1.0

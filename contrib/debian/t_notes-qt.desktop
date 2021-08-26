@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=T-Notes
+Comment=T_Notes P2P Cryptocurrency
+Comment[fr]=T_Notes, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=T_Notes, eşten eşe kriptografik sanal para birimi
+Exec=t_notes-qt %u
+Terminal=false
+Type=Application
+Icon=t_notes128
+MimeType=x-scheme-handler/t_notes;
+Categories=Office;Finance;
+StartupWMClass=t_notes-qt
