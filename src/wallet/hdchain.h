@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_HDCHAIN_H
-#define T_Notes_HDCHAIN_H
+#ifndef T_NOTES_HDCHAIN_H
+#define T_NOTES_HDCHAIN_H
 
 #include "key.h"
 
@@ -73,4 +73,4 @@ public:
     }
 };
 
-#endif // T_Notes_HDCHAIN_H
+#endif // T_NOTES_HDCHAIN_H

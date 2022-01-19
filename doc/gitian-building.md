@@ -112,7 +112,7 @@ gpg --output ${VERSION}-win-unsigned/$NAME/t_notes-win-${VERSION%\.*}-build.asse
 Uploading Signatures
 --------------------
 Make a Pull Request (both the `.assert` and `.assert.sig` files) to the
-[gitian.sigs](https://github.com/t_notes-project/gitian.sigs/) repository:
+[gitian.sigs](https://github.com/THYMESIA-SECURITIES/gitian.sigs/) repository:
 
 ```bash
 git checkout -b ${VERSION}-not-codesigned

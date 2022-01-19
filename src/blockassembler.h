@@ -5,8 +5,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_BLOCKASSEMBLER_H
-#define T_Notes_BLOCKASSEMBLER_H
+#ifndef T_NOTES_BLOCKASSEMBLER_H
+#define T_NOTES_BLOCKASSEMBLER_H
 
 #include "primitives/block.h"
 #include "txmempool.h"
@@ -104,4 +104,4 @@ bool CreateCoinbaseTx(CBlock* pblock, const CScript& scriptPubKeyIn, CBlockIndex
 // Visible for testing purposes only
 uint256 CalculateSaplingTreeRoot(CBlock* pblock, int nHeight, const CChainParams& chainparams);
 
-#endif // T_Notes_BLOCKASSEMBLER_H
+#endif // T_NOTES_BLOCKASSEMBLER_H

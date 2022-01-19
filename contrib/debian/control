@@ -29,8 +29,8 @@ Build-Depends: debhelper,
  dh-systemd
 Standards-Version: 3.9.2
 Homepage: http://www.t_notes.org
-Vcs-Git: git://github.com/T_Notes-Project/T_Notes.git
-Vcs-Browser: http://github.com/T_Notes-Project/T_Notes
+Vcs-Git: git://github.com/THYMESIA-SECURITIES/T-Notes.git
+Vcs-Browser: http://github.com/THYMESIA-SECURITIES/T-Notes
 
 Package: t_notesd
 Architecture: any

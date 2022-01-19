@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_SAPLING_TRANSACTION_H
-#define T_Notes_SAPLING_TRANSACTION_H
+#ifndef T_NOTES_SAPLING_TRANSACTION_H
+#define T_NOTES_SAPLING_TRANSACTION_H
 
 #include "serialize.h"
 #include "streams.h"
@@ -161,4 +161,4 @@ public:
 };
 
 
-#endif //T_Notes_SAPLING_TRANSACTION_H
+#endif //T_NOTES_SAPLING_TRANSACTION_H

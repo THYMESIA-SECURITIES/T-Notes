@@ -11,7 +11,7 @@ packages:
 - "libtool"
 - "pkg-config"
 remotes:
-- "url": "https://github.com/t_notes-project/t_notes-detached-sigs.git"
+- "url": "https://github.com/THYMESIA-SECURITIES/T-Notes-detached-sigs.git"
   "dir": "signature"
 files:
 - "osslsigncode-2.0.tar.gz"

@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_CONSENSUS_UPGRADES_H
-#define T_Notes_CONSENSUS_UPGRADES_H
+#ifndef T_NOTES_CONSENSUS_UPGRADES_H
+#define T_NOTES_CONSENSUS_UPGRADES_H
 
 #include "consensus/params.h"
 #include "optional.h"
@@ -82,4 +82,4 @@ Optional<int> NextActivationHeight(
         int nHeight,
         const Consensus::Params& params);
 
-#endif // T_Notes_CONSENSUS_UPGRADES_H
+#endif // T_NOTES_CONSENSUS_UPGRADES_H

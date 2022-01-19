@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_KEY_IO_SAPLING_H
-#define T_Notes_KEY_IO_SAPLING_H
+#ifndef T_NOTES_KEY_IO_SAPLING_H
+#define T_NOTES_KEY_IO_SAPLING_H
 
 #include "chainparams.h"
 #include "sapling/zip32.h"
@@ -24,4 +24,4 @@ namespace KeyIO {
     libzcash::SpendingKey DecodeSpendingKey(const std::string& str);
 }
 
-#endif //T_Notes_KEY_IO_SAPLING_H
+#endif //T_NOTES_KEY_IO_SAPLING_H

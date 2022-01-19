@@ -5,8 +5,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_AMOUNT_H
-#define T_Notes_AMOUNT_H
+#ifndef T_NOTES_AMOUNT_H
+#define T_NOTES_AMOUNT_H
 
 #include <stdint.h>
 

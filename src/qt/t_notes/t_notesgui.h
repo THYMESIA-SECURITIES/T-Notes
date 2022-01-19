@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_CORE_NEW_GUI_T_NotesGUI_H
-#define T_Notes_CORE_NEW_GUI_T_NotesGUI_H
+#ifndef T_NOTES_CORE_NEW_GUI_T_NotesGUI_H
+#define T_NOTES_CORE_NEW_GUI_T_NotesGUI_H
 
 #if defined(HAVE_CONFIG_H)
 #include "config/t_notes-config.h"
@@ -196,4 +196,4 @@ Q_SIGNALS:
 };
 
 
-#endif //T_Notes_CORE_NEW_GUI_T_NotesGUI_H
+#endif //T_NOTES_CORE_NEW_GUI_T_NotesGUI_H

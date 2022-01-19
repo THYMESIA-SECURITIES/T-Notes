@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_SAPLING_CORE_WRITE_H
-#define T_Notes_SAPLING_CORE_WRITE_H
+#ifndef T_NOTES_SAPLING_CORE_WRITE_H
+#define T_NOTES_SAPLING_CORE_WRITE_H
 
 #include "primitives/transaction.h"
 #include <univalue.h>
@@ -13,4 +13,4 @@
 // Format Sapling tx information in json.
 void TxSaplingToJSON(const CTransaction& tx, UniValue& entry);
 
-#endif //T_Notes_SAPLING_CORE_WRITE_H
+#endif //T_NOTES_SAPLING_CORE_WRITE_H

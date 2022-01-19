@@ -38,10 +38,10 @@ git config --global user.email "MY_NAME@example.com"
 Fetching the Build Script
 --------------------------
 
-The build script we'll be using is contained in the T_Notes github repository ([contrib/gitian-build.py](https://github.com/t_notes-project/t_notes/blob/master/contrib/gitian-build.py)). Since this is a completely fresh environment, we haven't yet cloned the T_Notes repository and will need to fetch this script with the following commands:
+The build script we'll be using is contained in the T_Notes github repository ([contrib/gitian-build.py](https://github.com/THYMESIA-SECURITIES/T-Notes/blob/master/contrib/gitian-build.py)). Since this is a completely fresh environment, we haven't yet cloned the T_Notes repository and will need to fetch this script with the following commands:
 
 ```bash
-curl -L -O https://raw.githubusercontent.com/T_Notes-Project/T_Notes/master/contrib/gitian-build.py
+curl -L -O https://raw.githubusercontent.com/THYMESIA-SECURITIES/T-Notes/master/contrib/gitian-build.py
 chmod +x gitian-build.py
 ```
 

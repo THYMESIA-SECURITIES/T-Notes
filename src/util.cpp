@@ -84,9 +84,9 @@
 #include <openssl/crypto.h>
 #include <openssl/rand.h>
 
-const char * const T_Notes_CONF_FILENAME = "t-notes.conf";
-const char * const T_Notes_PID_FILENAME = "t-notes.pid";
-const char * const T_Notes_MASTERNODE_CONF_FILENAME = "masternode.conf";
+const char * const T_NOTES_CONF_FILENAME = "t-notes.conf";
+const char * const T_NOTES_PID_FILENAME = "t-notes.pid";
+const char * const T_NOTES_MASTERNODE_CONF_FILENAME = "masternode.conf";
 
 
 // T_Notes only features
@@ -545,13 +545,13 @@ void ClearDatadirCache()
 
 fs::path GetConfigFile()
 {
-    fs::path pathConfigFile(gArgs.GetArg("-conf", T_Notes_CONF_FILENAME));
+    fs::path pathConfigFile(gArgs.GetArg("-conf", T_NOTES_CONF_FILENAME));
     return AbsPathForConfigVal(pathConfigFile, false);
 }
 
 fs::path GetMasternodeConfigFile()
 {
-    fs::path pathConfigFile(gArgs.GetArg("-mnconf", T_Notes_MASTERNODE_CONF_FILENAME));
+    fs::path pathConfigFile(gArgs.GetArg("-mnconf", T_NOTES_MASTERNODE_CONF_FILENAME));
     return AbsPathForConfigVal(pathConfigFile);
 }
 
@@ -596,7 +596,7 @@ fs::path AbsPathForConfigVal(const fs::path& path, bool net_specific)
 #ifndef WIN32
 fs::path GetPidFile()
 {
-    fs::path pathPidFile(gArgs.GetArg("-pid", T_Notes_PID_FILENAME));
+    fs::path pathPidFile(gArgs.GetArg("-pid", T_NOTES_PID_FILENAME));
     return AbsPathForConfigVal(pathPidFile);
 }
 

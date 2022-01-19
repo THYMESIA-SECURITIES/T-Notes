@@ -6,8 +6,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_UINT256_H
-#define T_Notes_UINT256_H
+#ifndef T_NOTES_UINT256_H
+#define T_NOTES_UINT256_H
 
 #include "arith_uint256.h"
 #include <assert.h>
@@ -142,4 +142,4 @@ const uint256 UINT256_ZERO = uint256();
 const uint256 UINT256_ONE = uint256("0000000000000000000000000000000000000000000000000000000000000001");
 const uint256 UINT256_MAX = uint256("ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
 
-#endif // T_Notes_UINT256_H
+#endif // T_NOTES_UINT256_H

@@ -3,8 +3,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_CSPORKDB_H
-#define T_Notes_CSPORKDB_H
+#ifndef T_NOTES_CSPORKDB_H
+#define T_NOTES_CSPORKDB_H
 
 #include "fs.h"
 #include "dbwrapper.h"
@@ -26,4 +26,4 @@ public:
 };
 
 
-#endif //T_Notes_CSPORKDB_H
+#endif //T_NOTES_CSPORKDB_H

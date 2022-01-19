@@ -33,7 +33,7 @@ packages:
 - "ca-certificates"
 - "python3"
 remotes:
-- "url": "https://github.com/t_notes-project/t_notes.git"
+- "url": "https://github.com/THYMESIA-SECURITIES/T-Notes.git"
   "dir": "t_notes"
 files: []
 script: |
@@ -123,7 +123,7 @@ script: |
   chmod +x ${WRAP_DIR}/${prog}
   done
 
-  cd t_notes
+  cd T-Notes
   BASEPREFIX=`pwd`/depends
   # Build dependencies for each host
   for i in $HOSTS; do

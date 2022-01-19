@@ -29,7 +29,7 @@ packages:
 - "python3-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/t_notes-project/t_notes.git"
+- "url": "https://github.com/THYMESIA-SECURITIES/T-Notes.git"
   "dir": "t_notes"
 files:
 - "MacOSX10.11.sdk.tar.gz"
@@ -87,7 +87,7 @@ script: |
   create_per-host_faketime_wrappers "2000-01-01 12:00:00"
   export PATH=${WRAP_DIR}:${PATH}
 
-  cd t_notes
+  cd T-Notes
   BASEPREFIX=`pwd`/depends
 
   mkdir -p ${BASEPREFIX}/SDKs

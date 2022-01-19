@@ -8,7 +8,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/t_notes-project/t_notes-detached-sigs.git"
+- "url": "https://github.com/THYMESIA-SECURITIES/T-Notes-detached-sigs.git"
   "dir": "signature"
 files:
 - "t_notes-osx-unsigned.tar.gz"

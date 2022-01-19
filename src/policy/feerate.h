@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_POLICY_FEERATE_H
-#define T_Notes_POLICY_FEERATE_H
+#ifndef T_NOTES_POLICY_FEERATE_H
+#define T_NOTES_POLICY_FEERATE_H
 
 #include "amount.h"
 #include "serialize.h"

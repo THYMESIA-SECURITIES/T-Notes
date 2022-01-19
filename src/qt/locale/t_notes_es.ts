@@ -1832,9 +1832,9 @@ EN FRIO</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/t_notes-project/t_notes-project-translations</source>
+https://www.transifex.com/THYMESIA-SECURITIES/T-Notes-project-translations</source>
         <translation>¿Falta su lenguaje o la traducción está incompleta? Contribuya con las traducciones aquí:
-https://www.transifex.com/t_notes-project/t_notes-project-translations</translation>
+https://www.transifex.com/THYMESIA-SECURITIES/T-Notes-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
