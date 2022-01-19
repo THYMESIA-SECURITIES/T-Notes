@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
-#define T_Notes_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
+#ifndef T_NOTES_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
+#define T_NOTES_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
 
 #include <QSortFilterProxyModel>
 #include "addresstablemodel.h"
@@ -45,4 +45,4 @@ private:
 };
 
 
-#endif //T_Notes_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H
+#endif //T_NOTES_CORE_NEW_GUI_ADDRESSFILTERPROXYMODEL_H

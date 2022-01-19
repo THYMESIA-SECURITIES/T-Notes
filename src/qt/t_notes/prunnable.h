@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_CORE_NEW_GUI_PRUNNABLE_H
-#define T_Notes_CORE_NEW_GUI_PRUNNABLE_H
+#ifndef T_NOTES_CORE_NEW_GUI_PRUNNABLE_H
+#define T_NOTES_CORE_NEW_GUI_PRUNNABLE_H
 
 class Runnable {
 public:
@@ -12,4 +12,4 @@ public:
     virtual void onError(QString error, int type) = 0;
 };
 
-#endif //T_Notes_CORE_NEW_GUI_PRUNNABLE_H
+#endif //T_NOTES_CORE_NEW_GUI_PRUNNABLE_H

@@ -43,8 +43,8 @@ Build T-Notes
 
 1. Clone the T-Notes source code:
 
-        git clone https://github.com/t_notes-project/t_notes
-        cd t_notes
+        git clone https://github.com/THYMESIA-SECURITIES/T-Notes
+        cd T-Notes
 
 2.  Make the Homebrew OpenSSL headers visible to the configure script  (do ```brew info openssl``` to find out why this is necessary, or if you use Homebrew with installation folders different from the default).
 

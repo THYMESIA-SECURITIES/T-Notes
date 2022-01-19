@@ -6,8 +6,8 @@
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_KERNEL_H
-#define T_Notes_KERNEL_H
+#ifndef T_NOTES_KERNEL_H
+#define T_NOTES_KERNEL_H
 
 #include "stakeinput.h"
 
@@ -75,4 +75,4 @@ bool CheckProofOfStake(const CBlock& block, std::string& strError, const CBlockI
  */
 bool GetStakeKernelHash(uint256& hashRet, const CBlock& block, const CBlockIndex* pindexPrev = nullptr);
 
-#endif // T_Notes_KERNEL_H
+#endif // T_NOTES_KERNEL_H

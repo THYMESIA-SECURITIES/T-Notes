@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_KEY_IO_H
-#define T_Notes_KEY_IO_H
+#ifndef T_NOTES_KEY_IO_H
+#define T_NOTES_KEY_IO_H
 
 #include "chainparams.h"
 #include "key.h"
@@ -28,4 +28,4 @@ namespace KeyIO {
 
 }
 
-#endif //T_Notes_KEY_IO_H
+#endif //T_NOTES_KEY_IO_H

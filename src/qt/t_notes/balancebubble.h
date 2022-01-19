@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_BALANCEBUBBLE_H
-#define T_Notes_BALANCEBUBBLE_H
+#ifndef T_NOTES_BALANCEBUBBLE_H
+#define T_NOTES_BALANCEBUBBLE_H
 
 #include <QWidget>
 #include <QString>
@@ -33,4 +33,4 @@ private:
     QTimer* hideTimer{nullptr};
 };
 
-#endif //T_Notes_BALANCEBUBBLE_H
+#endif //T_NOTES_BALANCEBUBBLE_H

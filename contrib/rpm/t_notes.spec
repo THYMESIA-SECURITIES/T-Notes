@@ -24,18 +24,18 @@ URL:		https://t_notes.org/
 Source0:	https://t_notes.org/bin/t_notes-core-%{version}/t_notes-%{version}.tar.gz
 Source1:	http://download.oracle.com/berkeley-db/db-%{bdbv}.NC.tar.gz
 
-Source10:	https://raw.githubusercontent.com/t_notes-project/t_notes/v%{version}/contrib/debian/examples/t-notes.conf
+Source10:	https://raw.githubusercontent.com/THYMESIA-SECURITIES/T-Notes/v%{version}/contrib/debian/examples/t-notes.conf
 
 #man pages
-Source20:	https://raw.githubusercontent.com/t_notes-project/t_notes/v%{version}/doc/man/t_notesd.1
-Source21:	https://raw.githubusercontent.com/t_notes-project/t_notes/v%{version}/doc/man/t_notes-cli.1
-Source22:	https://raw.githubusercontent.com/t_notes-project/t_notes/v%{version}/doc/man/t_notes-qt.1
+Source20:	https://raw.githubusercontent.com/THYMESIA-SECURITIES/T-Notes/v%{version}/doc/man/t_notesd.1
+Source21:	https://raw.githubusercontent.com/THYMESIA-SECURITIES/T-Notes/v%{version}/doc/man/t_notes-cli.1
+Source22:	https://raw.githubusercontent.com/THYMESIA-SECURITIES/T-Notes/v%{version}/doc/man/t_notes-qt.1
 
 #selinux
-Source30:	https://raw.githubusercontent.com/t_notes-project/t_notes/v%{version}/contrib/rpm/t_notes.te
+Source30:	https://raw.githubusercontent.com/THYMESIA-SECURITIES/T-Notes/v%{version}/contrib/rpm/t_notes.te
 # Source31 - what about t_notes-tx and bench_t_notes ???
-Source31:	https://raw.githubusercontent.com/t_notes-project/t_notes/v%{version}/contrib/rpm/t_notes.fc
-Source32:	https://raw.githubusercontent.com/t_notes-project/t_notes/v%{version}/contrib/rpm/t_notes.if
+Source31:	https://raw.githubusercontent.com/THYMESIA-SECURITIES/T-Notes/v%{version}/contrib/rpm/t_notes.fc
+Source32:	https://raw.githubusercontent.com/THYMESIA-SECURITIES/T-Notes/v%{version}/contrib/rpm/t_notes.if
 
 Source100:	https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg
 

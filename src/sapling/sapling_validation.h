@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_SAPLING_VALIDATION_H
-#define T_Notes_SAPLING_VALIDATION_H
+#ifndef T_NOTES_SAPLING_VALIDATION_H
+#define T_NOTES_SAPLING_VALIDATION_H
 
 #include "chainparams.h"
 
@@ -28,4 +28,4 @@ bool ContextualCheckTransaction(const CTransaction &tx, CValidationState &state,
 
 }; // End SaplingValidation namespace
 
-#endif //T_Notes_SAPLING_VALIDATION_H
+#endif //T_NOTES_SAPLING_VALIDATION_H

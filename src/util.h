@@ -44,9 +44,9 @@ public:
     boost::signals2::signal<std::string (const char* psz)> Translate;
 };
 
-extern const char * const T_Notes_CONF_FILENAME;
-extern const char * const T_Notes_PID_FILENAME;
-extern const char * const T_Notes_MASTERNODE_CONF_FILENAME;
+extern const char * const T_NOTES_CONF_FILENAME;
+extern const char * const T_NOTES_PID_FILENAME;
+extern const char * const T_NOTES_MASTERNODE_CONF_FILENAME;
 extern const char * const DEFAULT_DEBUGLOGFILE;
 
 //T_Notes only features

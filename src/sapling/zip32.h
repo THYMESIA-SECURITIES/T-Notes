@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_ZIP32_H
-#define T_Notes_ZIP32_H
+#ifndef T_NOTES_ZIP32_H
+#define T_NOTES_ZIP32_H
 
 #include "serialize.h"
 #include "allocators.h"
@@ -145,4 +145,4 @@ bool IsValidSpendingKey(const libzcash::SpendingKey& zkey);
 /** Check whether a ViewingKey is not an InvalidEncoding. */
 bool IsValidViewingKey(const libzcash::ViewingKey& vk);
 
-#endif // T_Notes_ZIP32_H
+#endif // T_NOTES_ZIP32_H

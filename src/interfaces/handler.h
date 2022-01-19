@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_INTERFACES_HANDLER_H
-#define T_Notes_INTERFACES_HANDLER_H
+#ifndef T_NOTES_INTERFACES_HANDLER_H
+#define T_NOTES_INTERFACES_HANDLER_H
 
 #include <memory>
 
@@ -33,4 +33,4 @@ std::unique_ptr<Handler> MakeHandler(boost::signals2::connection connection);
 
 } // namespace interfaces
 
-#endif // T_Notes_INTERFACES_HANDLER_H
+#endif // T_NOTES_INTERFACES_HANDLER_H

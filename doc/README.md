@@ -28,7 +28,7 @@ Drag T_Notes-Qt to your applications folder, and then run T_Notes-Qt.
 
 ### Need Help?
 
-* See the documentation at the [T_Notes Wiki](https://github.com/T_Notes-Project/T_Notes/wiki)
+* See the documentation at the [T_Notes Wiki](https://github.com/THYMESIA-SECURITIES/T-Notes/wiki)
 for help and more information.
 * Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [T_Notes Forum](http://forum.t_notes.org/).
 * Join our Discord server [Discord Server](https://discord.t_notes.org)

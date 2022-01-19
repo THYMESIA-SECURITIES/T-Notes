@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_SAPLING_TEST_FIXTURE_H
-#define T_Notes_SAPLING_TEST_FIXTURE_H
+#ifndef T_NOTES_SAPLING_TEST_FIXTURE_H
+#define T_NOTES_SAPLING_TEST_FIXTURE_H
 
 #include "test/test_t_notes.h"
 
@@ -17,4 +17,4 @@ struct SaplingTestingSetup : public TestingSetup {
 };
 
 
-#endif //T_Notes_SAPLING_TEST_FIXTURE_H
+#endif //T_NOTES_SAPLING_TEST_FIXTURE_H

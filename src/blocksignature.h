@@ -3,8 +3,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef T_Notes_BLOCKSIGNATURE_H
-#define T_Notes_BLOCKSIGNATURE_H
+#ifndef T_NOTES_BLOCKSIGNATURE_H
+#define T_NOTES_BLOCKSIGNATURE_H
 
 #include "key.h"
 #include "primitives/block.h"
@@ -14,4 +14,4 @@ bool SignBlockWithKey(CBlock& block, const CKey& key);
 bool SignBlock(CBlock& block, const CKeyStore& keystore);
 bool CheckBlockSignature(const CBlock& block);
 
-#endif //T_Notes_BLOCKSIGNATURE_H
+#endif //T_NOTES_BLOCKSIGNATURE_H

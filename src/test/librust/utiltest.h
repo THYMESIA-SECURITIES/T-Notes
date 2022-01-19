@@ -4,8 +4,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or https://www.opensource.org/licenses/mit-license.php .
 
-#ifndef T_Notes_UTIL_TEST_H
-#define T_Notes_UTIL_TEST_H
+#ifndef T_NOTES_UTIL_TEST_H
+#define T_NOTES_UTIL_TEST_H
 
 #include "sapling/address.h"
 #include "sapling/incrementalmerkletree.h"
@@ -78,4 +78,4 @@ CWalletTx GetValidSaplingReceive(const Consensus::Params& consensusParams,
                                  bool genNewKey = false,
                                  const CWallet* pwalletIn = nullptr);
 
-#endif // T_Notes_UTIL_TEST_H
+#endif // T_NOTES_UTIL_TEST_H
