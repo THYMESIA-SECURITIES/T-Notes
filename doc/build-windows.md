@@ -107,7 +107,7 @@ Build using:
     ./autogen.sh # not required when building from tarball
     CONFIG_SITE=$PWD/depends/x86_64-w64-mingw32/share/config.site ./configure --prefix=/ --disable-online-rust
     make
-    ./util/fetch-params.sh ./params # copy the params files to %APPDATA%/T_NotesParams
+    ./util/fetch-params.sh ./params # copy the params files to %APPDATA%/T-NotesParams
     sudo bash -c "echo 1 > /proc/sys/fs/binfmt_misc/status" # Enable WSL support for Win32 applications.
 
 or in one command on Ubuntu with log output: 
@@ -121,7 +121,7 @@ or even without tests for quicker builds:
 Bundle together using:
 
     rsync -r -f '+ *.exe' -f '+ **/' -f '- *' --prune-empty-dirs ./src/ ./build/
-    echo 'PUSHD "%~dp0" && XCOPY "params\" "%APPDATA%\T_NotesParams\" /E /H /C /R /Q /Y' > $PWD/build/install-params.bat && $PWD/util/fetch-params.sh $PWD/build/params
+    echo 'PUSHD "%~dp0" && XCOPY "params\" "%APPDATA%\T-NotesParams\" /E /H /C /R /Q /Y' > $PWD/build/install-params.bat && $PWD/util/fetch-params.sh $PWD/build/params
 
 
 ## Depends system
